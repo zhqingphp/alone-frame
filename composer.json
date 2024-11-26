@@ -18,5 +18,16 @@
       "name":"zhqing",
       "email":"9740878@qq.com"
     }
-  ]
+  ],
+  "scripts":{
+    "post-package-install":[
+      "alone\\Plugin::install"
+    ],
+    "post-package-update":[
+      "alone\\Plugin::update"
+    ],
+    "pre-package-uninstall":[
+      "alone\\Plugin::uninstall"
+    ]
+  }
 }
