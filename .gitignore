@@ -1,0 +1,6 @@
+/runtime
+/.idea
+/.vscode
+/vendor
+*.log
+/composer.lock
